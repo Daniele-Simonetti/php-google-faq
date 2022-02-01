@@ -56,6 +56,7 @@ $faqs = [
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
@@ -95,7 +96,26 @@ $faqs = [
   </main>
 
   <footer>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim doloribus quaerat quo optio corporis, quod aliquam sint dolorem laborum iste, dicta iusto a dolor accusamus id minus veritatis modi.
+    <div class="footer-box">
+      <div class="footer-list">
+        <ul>
+          <li class="first-footer">Google</li>
+          <li><i class="fas fa-circle"></i>Tutto su Google</li>
+          <li><i class="fas fa-circle"></i>Privacy</li>
+          <li><i class="fas fa-circle"></i>Termini</li>
+        </ul>
+      </div>
+      <div class="select">
+      <i class="fas fa-globe-europe"></i>
+        <select name="languages" id="">
+          <option value="">Italiano</option>
+          <option value="">Inglese</option>
+          <option value="">Tedesco</option>
+          <option value="">Spagnolo</option>
+        </select>
+      </div>
+
+    </div>
   </footer>
 </body>
 </html>
